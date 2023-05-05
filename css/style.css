@@ -17,7 +17,7 @@ body{
 }
 
 .container{
-    width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -38,23 +38,57 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 MAIN
 */
+
+/*section-1*/
+#first-section{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*section-2*/
+
+.columns > * {
+    float: left;
+    text-align: center;
+    width: calc(100% / 3);
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-top: 11px;
+    padding-left: 13px;
+    line-height: 25px;
+}
+
+.email{
+    color: #3B81A9;
+}
+
+
+
+
+
+
 
